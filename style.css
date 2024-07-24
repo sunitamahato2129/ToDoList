@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    /* background: radial-gradient(red,yellow, black); */
+    background: linear-gradient(135deg,#e60548 ,#4e085f);
+}
+
+section>.userForm{
+    height: 30%;
+    width: 100%;
+    /* background-color: blue; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section>.userForm>form{
+    color: white;
+}
+
+section>.userForm>form>input{
+    height: 30px;
+    width:200px ;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 15px;
+    margin-left: 25px;
+    color: rgb(241, 7, 132);
+}
+
+section>.userForm>form>input:focus{
+    color:white ;
+}
+
+
+section>.userForm>form>button{
+    height: 35px;
+    width: 120px;
+    background-color: rgb(0,0,0);
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    margin-left: 20px;
+}
+
+
+section>.userForm>form>button:hover{
+    box-shadow: 0px 0px 10px white;
+    cursor: pointer;
+}
+
+section>.userDetails{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+section>.userDetails>table{
+    width: 70%;
+    border: 1px solid white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+section>.userDetails>table td{
+    padding: 10px;
+}
